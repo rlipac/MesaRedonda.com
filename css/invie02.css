@@ -1,0 +1,301 @@
+
+
+body {
+    
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin:0;
+}
+
+table {
+    width: 100%;
+    margin: 65px 50px 100px 40px;
+}
+
+th {
+   
+    background: #22313F;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+td {
+    padding: 20px;
+}
+
+table, td, th {
+    border: 1px solid #22313F;
+    border-collapse: collapse;
+    
+}
+
+input, textarea {
+   background: #ecf0f1;
+   
+}
+
+input:focus, textarea:focus {
+   background: white;
+}
+
+.background{
+    background-image: url('../images/background.png');
+    background-size: cover;
+   
+}
+.background.precios {
+    height: 140px;
+}
+
+
+.contenedor {
+    width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+
+.header {
+    position: relative;
+   
+    
+}
+
+.button{
+    border-radius: 8px;
+    background: #EF4836    ;
+    color: white; 
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer; /* cursor del maus*/
+    font-size: 18px;
+    background: linear-gradient(to left,#FF4500, #FF7F50 ); /*color degradado*/
+    text-decoration: none;
+    
+    
+    /* colores degradados para todos los navegadores */
+    
+/* background: rgba(241,111,92,1);
+background: -moz-linear-gradient(45deg, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 82%, rgba(166,41,27,1) 97%, rgba(166,41,27,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(241,111,92,1)), color-stop(51%, rgba(241,111,92,1)), color-stop(82%, rgba(231,56,39,1)), color-stop(97%, rgba(166,41,27,1)), color-stop(100%, rgba(166,41,27,1)));
+background: -webkit-linear-gradient(45deg, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 82%, rgba(166,41,27,1) 97%, rgba(166,41,27,1) 100%);
+background: -o-linear-gradient(45deg, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 82%, rgba(166,41,27,1) 97%, rgba(166,41,27,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 82%, rgba(166,41,27,1) 97%, rgba(166,41,27,1) 100%); */
+
+    /* colores degradados para todos los navegadores */ 
+    
+  
+}
+
+.titulo  {
+    font-size: 65px;
+    font-family: 'Droid Serif', serif;
+    margin-bottom: 0;
+    margin-top: 130px;
+  
+     /* efectro de sombras---text-shadow: 25px -25px 3px gray;*/
+}
+
+.titulo span {
+    text-decoration: underline;
+}
+
+
+.title-a {
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 10px 0px 30px 0px;
+                                              
+}
+.title-b {
+    font-size: 35px;
+    margin: 0px;
+    padding: 10px;
+}
+
+/* 
+.portada {
+    background: rgba(12,12,12,.3);color de fondo trasparente
+} */
+
+
+
+
+.portada {
+    
+    color: white; 
+    padding: 25px;
+    height: 520px;
+    margin-bottom: 80px;
+    
+}
+.portada button {
+    margin-bottom: 60px;
+}
+.logotipo {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.menu {
+    font-size:22px;
+    display:inline-block;
+    position: absolute;
+    right: 0;
+   
+}
+
+.menu a {
+    color: white;
+    text-decoration:none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+ .menu li:before {
+   
+    content: '·';
+    font-size: 40px;
+    line-height: 20px;
+     color: white;
+    
+    /* agregando entidades html o seudo elementos */
+} 
+.guitarra {
+   /*  overflow: hidden; */
+    border:  2px solid #34495e;
+    padding: 10px ;
+    margin: 20px 20px 40px 20px;
+    border-radius:8px;
+    padding-top: 35px;
+}
+.derecha {
+    float: right;
+    position: relative;
+    top:  -163px;
+    height: 325px;
+    width: 293px;    
+}
+.izquierda {
+    float: left;
+    position: relative;
+    top: 16px; 
+    height: 280px;
+    width: 355px;
+}
+
+
+.contenedor-acustica {
+    padding-left:20px;
+}
+
+.contenedor-clasica {    
+ margin-left: 450px;
+ padding-left: 10px; 
+ position: relative;
+ bottom: 80px;
+}
+
+
+
+
+.guitarra ol {
+    padding: 0; 
+}
+
+.guitarras {
+    color: #34495e;
+    margin-bottom: 65px;
+    
+    
+}
+
+.guitarras h2 {
+    font-size: 30px;
+    font-family: 'Droid Serif', serif
+    
+}
+
+
+
+.footer {
+    background: #34495E;
+    padding: 50px 10px;
+    
+}
+
+.footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+}  
+.contacto img {
+   
+    display: block;
+    
+}
+
+.contacto strong {
+ 
+  display: block;
+}
+
+
+.contacto a {
+   
+    color: white; 
+    text-decoration: none;
+    margin: 10px 10px 10px 0px;
+   
+}
+
+
+.formulario {
+    display: flex; 
+    width: 440px;
+    color: white;
+   
+}
+
+.col1, .col2 {
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.col1 {
+    margin-right: 15px;
+   
+}
+
+.col2 {
+    align-items: flex-start;
+}
+
+.col2 .button {
+    margin-top: 12px;
+}
+
+.intereses label {
+    font-size: 13px; /* definiendo tamaño de fuente del formulario */ 
+    
+}
+
+.formulario label .sexo, .intereses{
+    margin-bottom: 12px;
+}
+
+.sexo {
+    margin-top: 10px;
+}
+
+
