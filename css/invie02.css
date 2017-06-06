@@ -39,7 +39,7 @@ input:focus, textarea:focus {
 }
 
 .background{
-    background-image: url('chikadj.jpg');
+    background-image: url("../images/chikadj.jpg");
     background-size: cover;
    
 }
