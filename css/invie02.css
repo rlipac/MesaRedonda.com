@@ -152,6 +152,7 @@ background: -ms-linear-gradient(45deg, rgba(241,111,92,1) 0%, rgba(241,111,92,1)
    
 }
 
+
 .menu a {
     color: white;
     text-decoration:none;
@@ -162,15 +163,10 @@ background: -ms-linear-gradient(45deg, rgba(241,111,92,1) 0%, rgba(241,111,92,1)
     margin-left: 20px;
 }
 
- .menu li:before {
-   
-    content: '·';
-    font-size: 40px;
-    line-height: 20px;
-     color: white;
+
     
     /* agregando entidades html o seudo elementos */
-} 
+
 .guitarra {
    /*  overflow: hidden; */
     border:  2px solid #34495e;
