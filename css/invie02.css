@@ -61,6 +61,13 @@ input:focus, textarea:focus {
     
 }
 
+figure, .milogo {
+    font-size: 30px;
+    color:#FF4500 ;
+    
+    
+}
+
 .button{
     border-radius: 8px;
     background: #EF4836    ;
